@@ -1,0 +1,303 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ca</title>
+</head>
+<style>
+    .flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+body{
+ position: relative;
+}
+.pro{
+    background-color:red;
+    height: 1.5px;
+    animation: width 3s linear   forwards;
+}
+@keyframes width {
+    0%{
+        width: 50%;
+    }
+    60%{
+        width: 70%;
+    }
+    80%{
+        width: 100%;
+    }
+    
+}
+header{
+    background-color: orange;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+    /* display:inline-flex; */
+    /* align-items: center */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding: 0 33px;
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px 20px;
+    color: white; 
+}
+li a:hover{
+    color: grey;
+    
+}
+ .active {
+     background-color: orangered;
+   
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+.btn{
+    width: 60px;
+    height: 26px;
+    border-radius: 6px;
+    color: black;
+    cursor: pointer;
+    
+}
+.btn2{
+     display: flex;
+    align-items: center;
+    width: 65px;
+    height: 26px;
+    margin: 17px 26px 17px 400px;
+    border-radius: 6px;
+    color: blue;
+    background-color: white;
+    padding: 12px;
+    cursor: pointer;
+}
+   
+
+
+
+.btn3{
+    display: flex;
+    align-items: center;
+    width: 65px;
+    height: 26px;
+    margin: 17px 100px 17px auto;
+    border-radius: 6px;
+    color: blue;
+    background-color: white;
+    padding: 12px;
+    cursor:pointer;
+}
+.search input{
+
+    width: 280px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0px 20px 0px 60px;
+    padding: 0px 12px;
+    color: black;
+}
+
+ .container{
+ height:700px;
+
+}
+h3{
+    position: fixed;
+   left: 130px;
+   top: 75px; 
+}
+.bt{
+    position: fixed;
+    left: 130px;
+    top: 110px;
+    
+    
+
+}
+#btn01{
+    background-color: blue;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+    border-radius: 16px;
+
+}
+#q0 {
+    position: fixed;
+    top: 155px;
+    left: 130px;
+    padding: 10px;
+}
+#q1 {
+    position: fixed;
+    top: 155px;
+    left: 713px;
+    padding: 10px;
+}
+#q2 {
+    position: fixed;
+    top: 475px;
+    left: 130px;
+    padding: 10px;
+}
+#q3 {
+    position: fixed;
+    top: 475px;
+    left: 713px;
+    padding: 10px;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+footer{
+    
+    background-color: orange;
+    height: 10vh;
+}
+footer p{
+   color: white;
+}
+
+/* added css */
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Lovely_Professional_University_logo.png" alt="" width="70px">
+            </div>
+
+
+            <ul>
+                <li class="active"><a href="home.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="search here">
+                <button class="btn">search</button>
+            </div>
+            <div class="login">
+                <button class="btn2" id="bt1" onclick="window.location.href='login.html'">logout</button>
+
+
+            </div>
+
+
+
+        </nav>
+
+    </header>
+    <div class="container">
+        <h3>Academics</h3>
+        <span class="bt">
+        <button id="btn01">RMS</button>
+        <button id="btn01">Academic Calender</button>
+        <button id="btn01">Certificate request</button>
+        <button id="btn01">Loan letter</button>
+        <button id="btn01">Part-time Job Application</button>
+        <button id="btn01">Emergency Numbers</button>
+        <button id="btn01">Lpu Touch</button>
+        <button id="btn01">Whatsapp</button>
+        </span>
+        <fieldset id="q0">
+            <br>
+            <!-- Happenings -->
+            <legend> HAPPENINGS </legend>
+            <img src="fanfest.jpg" alt="lpu" width="500px" height="200px">
+            <h4>*Happening events in LPU</h4>
+            <button id="jj" style="background-color: blue; color: white;padding: 3px; border-radius: 5px;">view more</button>
+    
+    
+        </fieldset>
+        <fieldset id="q1">
+            <br>
+            <!-- Happenings -->
+            <legend>Fee </legend>
+            <img src="Lovely-Professional-University-Hostel-Fees-1.png" alt="lpu" width="500px" height="200px">
+
+            <h4>*Fee Structure</h4>
+            <button id="jj" style="background-color: blue; color: white;padding: 3px; border-radius: 5px;">view more</button>
+    
+    
+        </fieldset>
+        <fieldset id="q2">
+            <br>
+            <!-- Happenings -->
+            <legend>lpu photos </legend>
+            <img src="lpu (1).jpg" alt="lpu" width="500px" height="200px">
+            <h4>*Fee Structure</h4>
+            <button id="jj" style="background-color: blue; color: white;padding: 3px; border-radius: 5px;">view more</button>
+    
+    
+        </fieldset>
+        <fieldset id="q3">
+            <br>
+            <!-- Happenings -->
+            <legend>Events </legend>
+            <img src="images.jpg" alt="lpu" width="500px" height="200px">
+
+            <h4>*Fee Structure</h4>
+            <button id="jj" style="background-color: blue; color: white;padding: 3px; border-radius: 5px;">view more</button>
+    
+    
+        </fieldset>
+         
+    </div>
+
+        
+    <footer class="flex-all-center">
+        <p>Copyright &copy all rights are reserved under pavan</p>
+    </footer>
+</body>
+<script>
+    function myFunction009() {
+   
+    document.getElementById("jj").innerHTML =  "these are the photos!";
+                            }
+</script>
+</html>
